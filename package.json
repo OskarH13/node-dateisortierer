@@ -1,27 +1,25 @@
 {
-    "name": "node_dateisortierer",
-    "version": "1.0.0",
-    "description": "Ein kleines Beispielprojekt für node.js",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "build": "tsc",
-      "start": "node ./dist/index.js",
-      "start_hausaufgabe": "node ./dist/ha_aufgabe_2.js",
-      "start_ha_4": "node ./dist/ha_aufgabe_4.js",
-      "dev": "npm run build && npm run start"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Gulcan82/node_dateisortierer.git"
-    },
-    "author": "Guelcan",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Gulcan82/node_dateisortierer/issues"
-    },
-    "homepage": "https://github.com/Gulcan82/node_dateisortierer#readme",
-    "dependencies": {
-      "@types/node": "^20.12.4"
-    }
+  "name": "file-sorter",
+  "version": "1.0.0",
+  "description": "a file sorter project for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node ./dist/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/atamankina/node-file-sorter.git"
+  },
+  "author": "Gal A",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atamankina/node-file-sorter/issues"
+  },
+  "homepage": "https://github.com/atamankina/node-file-sorter#readme",
+  "dependencies": {
+    "@types/node": "^20.12.4"
   }
+}
